@@ -6,5 +6,92 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin-top: 100px;
+  margin-left: 100px;
+  position: absolute;
+  background: top repeat-x url("../images/bgtile.png");
+}
+
+.imgPhone {
+  float: left;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  color: white;
+  background: url("../images/bgtile.png");
+  margin-left: 80px;
+}
+
+.encartBlanc {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  flex-wrap: nowrap;
+  margin: 20px 140px 20px 370px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  border-top: 2px solid whitesmoke;
+  border-left: 2px solid whitesmoke;
+  border-right: 2px solid whitesmoke;
+  background-color: white;
+}
+
+.txtEncartBlanc {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  flex-wrap: nowrap;
+  padding: 5px;
+}
+
+h1 {
+  color: #06365f;
+  margin-right: 210px;
+  font-size: 20px;
+}
+
+.headInsta div {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imgStore {
+  margin: 30px 80px 0px 10px;
+}
+
+footer div {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer li {
+  color: #1c5380;
+  font-weight: bold;
+  list-style: none;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+footer p {
+  color: grey;
+  margin-left: 20px;
 }
